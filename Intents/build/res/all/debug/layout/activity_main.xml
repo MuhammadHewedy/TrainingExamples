@@ -1,0 +1,38 @@
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/call_text"
+            android:layout_gravity="center"
+            android:onClick="callButtonClicked"
+            android:id="@+id/call_button"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/open_url_text"
+            android:layout_gravity="center"
+            android:onClick="openUrlButtonClicked"
+            android:id="@+id/call_open_url"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send_email_text"
+            android:layout_gravity="center"
+            android:onClick="sendEmailButtonClicked"
+            android:id="@+id/send_mail"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/get_map_text"
+            android:layout_gravity="center"
+            android:onClick="getMapButtonClicked"
+            android:id="@+id/map_button"/>
+</LinearLayout>
